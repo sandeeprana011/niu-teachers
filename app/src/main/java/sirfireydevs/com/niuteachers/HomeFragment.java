@@ -1,6 +1,8 @@
 package sirfireydevs.com.niuteachers;
 
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -10,6 +12,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.google.gson.Gson;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import retrofit2.Call;
@@ -18,12 +22,13 @@ import retrofit2.Response;
 import sirfireydevs.com.niuteachers.api.ApiServices;
 import sirfireydevs.com.niuteachers.api.ApiUtil;
 import sirfireydevs.com.niuteachers.api.ResponseRecords;
+import sirfireydevs.com.niuteachers.api.models.Record;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class HomeFragment extends Fragment {
+public class HomeFragment extends Fragment implements OnRowClickListener {
 
     public static final String TAG = "HomeFragment";
 
@@ -49,6 +54,7 @@ public class HomeFragment extends Fragment {
         ButterKnife.bind(this, view);
 
         adapter = new RVRecordsAdapter(getContext());
+        adapter.setOnRowClickListener(this);
         rv_recordslist.setLayoutManager(new LinearLayoutManager(getContext()));
         rv_recordslist.setAdapter(adapter);
 
@@ -68,5 +74,38 @@ public class HomeFragment extends Fragment {
 
             }
         });
+    }
+
+    @Override
+    public void onRowClicked(View view, Record record, int adapterPosition) {
+        switch (record.getType()) {
+            case Constants.TYPE_TEXT:
+                Fragment fragment = new TextFragment();
+                Bundle bundle = new Bundle();
+                bundle.putString(Constants.RECORD, new Gson().toJson(record));
+                fragment.setArguments(bundle);
+                ((MainActivity) getContext()).getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment, TextFragment.TAG).addToBackStack(TextFragment.TAG).commitAllowingStateLoss();
+                break;
+            case Constants.TYPE_FILE:
+                switch (record.getFile_type() == null ? "unknown" : record.getFile_type()) {
+                    case Constants.FileType.IMAGE:
+//                        break;
+                    case Constants.FileType.VIDEO:
+//                        break;
+                    case Constants.FileType.AUDIO:
+//                        break;
+                    case Constants.FileType.DOCUMENT:
+//                        break;
+                    case Constants.FileType.URL:
+//                        break;
+                    default:
+                        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(record.getUrl()));
+                        startActivity(browserIntent);
+                        break;
+                }
+                break;
+            default:
+                break;
+        }
     }
 }

@@ -1,0 +1,32 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sirfireydevs.com.niuteachers.TextFragment">
+
+    <TextView
+        android:id="@+id/t_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Title Here"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/t_title_tv"
+        android:padding="10dp">
+
+        <TextView
+            android:text="A lot of text for textkjdlkjafdjhjkh djfkjhak sdfhkjahdfjkh"
+            android:id="@+id/t_textcontent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"/>
+    </ScrollView>
+
+</RelativeLayout>

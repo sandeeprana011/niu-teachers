@@ -37,6 +37,28 @@ public class Record {
     @SerializedName("note")
     @Expose
     private String note;
+    @SerializedName("url")
+    @Expose
+    private String url;
+    @SerializedName("file_type")
+    @Expose
+    private String file_type;
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public String getFile_type() {
+        return file_type;
+    }
+
+    public void setFile_type(String file_type) {
+        this.file_type = file_type;
+    }
 
     public String getTeacher_id() {
         return teacher_id;
