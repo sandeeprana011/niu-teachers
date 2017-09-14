@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "611235773601",
+    "firebase_url": "https://noida-international-university.firebaseio.com",
+    "project_id": "noida-international-university",
+    "storage_bucket": "noida-international-university.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611235773601:android:0765121abcba18ac",
+        "android_client_info": {
+          "package_name": "sirfireys.rana.noidainternationaluniversity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611235773601-jm7d55ktnt4bmrcfdo287et3c7hu8h5t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sirfireys.rana.noidainternationaluniversity",
+            "certificate_hash": "d80c986b611d1abcc48b8353b11b2196b7c247a2"
+          }
+        },
+        {
+          "client_id": "611235773601-lmj9gjdjtajp1pqlrl4cl3eiu8hqjfj8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_t--Fm5z8mycPLlIXivQAkJvPf7g9mtg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611235773601-lmj9gjdjtajp1pqlrl4cl3eiu8hqjfj8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611235773601:android:0189c5ab98fa07c6",
+        "android_client_info": {
+          "package_name": "sirfireydevs.com.niuteachers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611235773601-4l50qk0r2v273kg1h77skbrimf7npi3a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sirfireydevs.com.niuteachers",
+            "certificate_hash": "d80c986b611d1abcc48b8353b11b2196b7c247a2"
+          }
+        },
+        {
+          "client_id": "611235773601-lmj9gjdjtajp1pqlrl4cl3eiu8hqjfj8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_t--Fm5z8mycPLlIXivQAkJvPf7g9mtg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611235773601-lmj9gjdjtajp1pqlrl4cl3eiu8hqjfj8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
