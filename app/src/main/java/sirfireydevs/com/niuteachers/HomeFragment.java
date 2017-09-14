@@ -89,15 +89,10 @@ public class HomeFragment extends Fragment implements OnRowClickListener {
             case Constants.TYPE_FILE:
                 switch (record.getFile_type() == null ? "unknown" : record.getFile_type()) {
                     case Constants.FileType.IMAGE:
-//                        break;
                     case Constants.FileType.VIDEO:
-//                        break;
                     case Constants.FileType.AUDIO:
-//                        break;
                     case Constants.FileType.DOCUMENT:
-//                        break;
                     case Constants.FileType.URL:
-//                        break;
                     default:
                         Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(record.getUrl()));
                         startActivity(browserIntent);
