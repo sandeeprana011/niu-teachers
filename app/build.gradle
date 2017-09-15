@@ -44,7 +44,10 @@ dependencies {
     compile 'com.github.clans:fab:1.6.2'
     testCompile 'junit:junit:4.12'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    compile 'com.karumi:dexter:4.1.0'
+    compile 'com.droidninja:filepicker:2.0.8'
 }
+
 
 
 

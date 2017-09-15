@@ -1,0 +1,57 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:padding="14dp"
+    tools:context="sirfireydevs.com.niuteachers.UploadStrategyFragment">
+
+
+    <ImageView
+        android:id="@+id/i_document"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/bg_gray"
+        android:src="@drawable/add_icon"/>
+
+    <TextView
+        android:layout_margin="7dp"
+        android:id="@+id/label_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/i_document"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:text="Select media, document or \nany file to upload"
+        android:textColor="@color/grey"/>
+
+    <EditText
+        android:id="@+id/t_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label_note"
+        android:hint="subject"/>
+
+    <EditText
+        android:id="@+id/t_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t_subject"
+        android:gravity="top"
+        android:hint="note"
+        android:minLines="2"/>
+
+    <Button
+        android:id="@+id/b_upload"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Upload File"/>
+</RelativeLayout>
