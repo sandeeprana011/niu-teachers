@@ -30,13 +30,12 @@ public interface ApiServices {
     Call<ResponseRecords> getRecordsList(
             @Query("teacher_id") String teacherId);
 
-    @POST("teachers/addrecord")
-    Call<StatusAndMessage> getTeachersAddRecord(
+    @POST("record/add")
+    Call<StatusAndMessage> addRecord(
             @Query("title") String title,
             @Query("teacher_id") String teacher_id,
             @Query("subject") String subject,
             @Query("type") String type,
-            @Query("phone") String phone,
             @Query("note") String note,
             @Query("url") String url,
             @Query("file_type") String file_type

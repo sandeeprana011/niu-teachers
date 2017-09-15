@@ -45,8 +45,8 @@ public class HomeFragment extends Fragment implements OnRowClickListener {
 
     @OnClick(R.id.fab_add_text)
     void onClickAddText() {
-        Fragment fragment = new TextFragment();
-        getFragmentManager().beginTransaction().replace(R.id.container, fragment, TextFragment.TAG).addToBackStack(TextFragment.TAG).commitAllowingStateLoss();
+        Fragment fragment = new EditextFragment();
+        getFragmentManager().beginTransaction().replace(R.id.container, fragment, EditextFragment.TAG).addToBackStack(TextFragment.TAG).commitAllowingStateLoss();
     }
 
     @OnClick(R.id.fab_upload_file)

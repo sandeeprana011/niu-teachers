@@ -11,16 +11,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="7dp"
-        android:gravity="center"
+        android:gravity="left"
         android:hint="Title"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/e_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e_title"
+        android:layout_margin="7dp"
+        android:gravity="left"
+        android:hint="Subject"
         android:padding="10dp"/>
 
     <EditText
         android:id="@+id/e_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@id/b_save"
-        android:layout_below="@+id/e_title"
+        android:layout_above="@+id/b_save"
+        android:layout_below="@+id/e_subject"
         android:layout_margin="7dp"
         android:gravity="left|top"
         android:hint="Type your content/message/note here"
