@@ -1,0 +1,38 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="sirfireydevs.com.niuteachers.EditextFragment">
+
+    <EditText
+        android:id="@+id/e_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:gravity="center"
+        android:hint="Title"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/e_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/b_save"
+        android:layout_below="@+id/e_title"
+        android:layout_margin="7dp"
+        android:gravity="left|top"
+        android:hint="Type your content/message/note here"
+        android:minLines="5"/>
+
+    <Button
+        android:id="@+id/b_save"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="7dp"
+        android:text="Save"/>
+
+</RelativeLayout>

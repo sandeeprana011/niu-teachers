@@ -12,10 +12,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.github.clans.fab.FloatingActionButton;
 import com.google.gson.Gson;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -33,12 +35,24 @@ public class HomeFragment extends Fragment implements OnRowClickListener {
     public static final String TAG = "HomeFragment";
 
     @BindView(R.id.rv_recordslist) RecyclerView rv_recordslist;
+    @BindView(R.id.fab_add_text) FloatingActionButton fab_add_text;
+    @BindView(R.id.fab_upload_file) FloatingActionButton fab_upload_file;
     private RVRecordsAdapter adapter;
 
     public HomeFragment() {
         // Required empty public constructor
     }
 
+    @OnClick(R.id.fab_add_text)
+    void onClickAddText() {
+        Fragment fragment = new TextFragment();
+        getFragmentManager().beginTransaction().replace(R.id.container, fragment, TextFragment.TAG).addToBackStack(TextFragment.TAG).commitAllowingStateLoss();
+    }
+
+    @OnClick(R.id.fab_upload_file)
+    void onClickUploadFile() {
+
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
