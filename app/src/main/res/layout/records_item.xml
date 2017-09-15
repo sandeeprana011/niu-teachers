@@ -21,6 +21,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/i_filetype"
+        android:ellipsize="end"
+        android:maxLines="1"
         android:text="Hinduism"
         android:textAppearance="?android:attr/textAppearanceMedium"/>
 
@@ -30,6 +32,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/t_titlefile"
         android:layout_toRightOf="@+id/i_filetype"
+        android:ellipsize="end"
+        android:maxLines="1"
         android:text="Lovable human beings"/>
 
     <TextView

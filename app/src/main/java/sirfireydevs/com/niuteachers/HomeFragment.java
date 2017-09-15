@@ -11,6 +11,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
 
 import com.github.clans.fab.FloatingActionButton;
 import com.google.gson.Gson;
@@ -37,6 +38,7 @@ public class HomeFragment extends Fragment implements OnRowClickListener {
     @BindView(R.id.rv_recordslist) RecyclerView rv_recordslist;
     @BindView(R.id.fab_add_text) FloatingActionButton fab_add_text;
     @BindView(R.id.fab_upload_file) FloatingActionButton fab_upload_file;
+    @BindView(R.id.progress_bar) ProgressBar progress_bar;
     private RVRecordsAdapter adapter;
 
     public HomeFragment() {
@@ -67,17 +69,24 @@ public class HomeFragment extends Fragment implements OnRowClickListener {
 
         ButterKnife.bind(this, view);
 
-        adapter = new RVRecordsAdapter(getContext());
+        if (adapter == null) {
+            adapter = new RVRecordsAdapter(getContext());
+        }
         adapter.setOnRowClickListener(this);
         rv_recordslist.setLayoutManager(new LinearLayoutManager(getContext()));
         rv_recordslist.setAdapter(adapter);
 
+
         ApiServices services = ApiUtil.getService();
         String teachId = UserPref.getTeacher(getContext()).getTeacher_id();
+
+        progress_bar.setVisibility(View.VISIBLE);
+
         Call<ResponseRecords> call = services.getRecordsList(teachId);
         call.enqueue(new Callback<ResponseRecords>() {
             @Override
             public void onResponse(Call<ResponseRecords> call, Response<ResponseRecords> response) {
+                progress_bar.setVisibility(View.GONE);
                 if (response.isSuccessful() && response.body().getStatus() == 200) {
                     adapter.addNewRecords(response.body().getRecords());
                 }
@@ -85,7 +94,7 @@ public class HomeFragment extends Fragment implements OnRowClickListener {
 
             @Override
             public void onFailure(Call<ResponseRecords> call, Throwable t) {
-
+                progress_bar.setVisibility(View.GONE);
             }
         });
     }

@@ -107,6 +107,7 @@ class RVRecordsAdapter extends RecyclerView.Adapter<RVRecordsAdapter.Holder> {
     }
 
     public void addNewRecords(ArrayList<Record> records) {
+        this.arrayList.clear();
         this.arrayList.addAll(records);
         this.notifyDataSetChanged();
     }
