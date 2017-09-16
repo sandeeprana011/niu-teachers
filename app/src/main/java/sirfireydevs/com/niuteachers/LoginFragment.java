@@ -39,19 +39,23 @@ public class LoginFragment extends Fragment {
     }
 
     @OnClick(R.id.b_login)
-    void onClickLogin(Button button) {
+    void onClickLogin(final Button button) {
+        button.setEnabled(false);
         ApiServices services = ApiUtil.getService();
         Call<ResponseTeacherProfile> call = services.getTeacherProfile(e_username.getText().toString(), e_password.getText().toString());
         call.enqueue(new Callback<ResponseTeacherProfile>() {
             @Override
             public void onResponse(Call<ResponseTeacherProfile> call, Response<ResponseTeacherProfile> response) {
+                button.setEnabled(true);
                 if (response.isSuccessful() && response.body().getStatus() == 200) {
                     UserPref.saveTeacher(getContext(), new Gson().toJson(response.body().getTeacher()));
+                    getFragmentManager().beginTransaction().replace(R.id.container, new HomeFragment(), HomeFragment.TAG).commitAllowingStateLoss();
                 }
             }
 
             @Override
             public void onFailure(Call<ResponseTeacherProfile> call, Throwable t) {
+                button.setEnabled(true);
                 Log.e(TAG, t.getMessage());
             }
         });
