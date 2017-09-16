@@ -1,0 +1,3 @@
+[submodule "niu-commons"]
+	path = niu-commons
+	url = https://github.com/sandeeprana011/niu-commons.git
