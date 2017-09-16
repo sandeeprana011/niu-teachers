@@ -12,6 +12,9 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.google.gson.Gson;
+import com.zilideus.niucommons.api.ApiServices;
+import com.zilideus.niucommons.api.ApiUtil;
+import com.zilideus.niucommons.api.ResponseTeacherProfile;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -19,9 +22,6 @@ import butterknife.OnClick;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-import sirfireydevs.com.niuteachers.api.ApiServices;
-import sirfireydevs.com.niuteachers.api.ApiUtil;
-import sirfireydevs.com.niuteachers.api.ResponseTeacherProfile;
 
 
 /**

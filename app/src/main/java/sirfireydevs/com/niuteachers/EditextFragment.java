@@ -2,6 +2,7 @@ package sirfireydevs.com.niuteachers;
 
 
 import android.os.Bundle;
+import android.provider.SyncStateContract;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -10,16 +11,19 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.zilideus.niucommons.Constants;
+import com.zilideus.niucommons.api.ApiServices;
+import com.zilideus.niucommons.api.ApiUtil;
+import com.zilideus.niucommons.api.StatusAndMessage;
+import com.zilideus.niucommons.api.models.Teachers;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-import sirfireydevs.com.niuteachers.api.ApiServices;
-import sirfireydevs.com.niuteachers.api.ApiUtil;
-import sirfireydevs.com.niuteachers.api.StatusAndMessage;
-import sirfireydevs.com.niuteachers.api.models.Teachers;
+
 
 
 /**

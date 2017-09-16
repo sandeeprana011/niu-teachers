@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

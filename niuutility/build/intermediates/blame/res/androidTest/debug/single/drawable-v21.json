@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/androidTest/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/androidTest/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/androidTest/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/androidTest/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    }
+]

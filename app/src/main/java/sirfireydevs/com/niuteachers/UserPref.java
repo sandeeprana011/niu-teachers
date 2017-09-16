@@ -5,8 +5,9 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
 import com.google.gson.Gson;
+import com.zilideus.niucommons.Constants;
+import com.zilideus.niucommons.api.models.Teachers;
 
-import sirfireydevs.com.niuteachers.api.models.Teachers;
 
 /**
  * Created by sandeeprana on 10/09/17.

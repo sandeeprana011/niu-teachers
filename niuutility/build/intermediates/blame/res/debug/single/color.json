@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/e01c1b9192f7ecf434e97635f60b7c9cdd3ce4e3/output/res/color/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color/design_error.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/e01c1b9192f7ecf434e97635f60b7c9cdd3ce4e3/output/res/color/design_error.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/51e1f1553fa7e778006058b06a50f8659c6fb2a0/output/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/51e1f1553fa7e778006058b06a50f8659c6fb2a0/output/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color/abc_tint_spinner.xml"
+    }
+]

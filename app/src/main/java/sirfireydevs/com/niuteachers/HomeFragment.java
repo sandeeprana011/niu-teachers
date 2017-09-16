@@ -15,6 +15,14 @@ import android.widget.ProgressBar;
 
 import com.github.clans.fab.FloatingActionButton;
 import com.google.gson.Gson;
+import com.zilideus.niucommons.Constants;
+import com.zilideus.niucommons.OnRowClickListener;
+import com.zilideus.niucommons.RVRecordsAdapter;
+import com.zilideus.niucommons.TextFragment;
+import com.zilideus.niucommons.api.ApiServices;
+import com.zilideus.niucommons.api.ApiUtil;
+import com.zilideus.niucommons.api.ResponseRecords;
+import com.zilideus.niucommons.api.models.Record;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -22,11 +30,6 @@ import butterknife.OnClick;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-import sirfireydevs.com.niuteachers.api.ApiServices;
-import sirfireydevs.com.niuteachers.api.ApiUtil;
-import sirfireydevs.com.niuteachers.api.ResponseRecords;
-import sirfireydevs.com.niuteachers.api.models.Record;
-
 
 /**
  * A simple {@link Fragment} subclass.

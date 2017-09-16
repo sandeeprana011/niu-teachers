@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/e01c1b9192f7ecf434e97635f60b7c9cdd3ce4e3/output/res/color-v23/design_tint_password_toggle.xml"
+    }
+]

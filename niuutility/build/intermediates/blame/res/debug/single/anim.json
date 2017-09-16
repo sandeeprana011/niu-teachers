@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/anim/fab_slide_in_from_left.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/8395049efc7a828d5e3f5cbb07ccab6adc0798da/output/res/anim/fab_slide_in_from_left.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/anim/fab_scale_up.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/8395049efc7a828d5e3f5cbb07ccab6adc0798da/output/res/anim/fab_scale_up.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/e01c1b9192f7ecf434e97635f60b7c9cdd3ce4e3/output/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/e01c1b9192f7ecf434e97635f60b7c9cdd3ce4e3/output/res/anim/design_fab_in.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/anim/slide_left_in.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/77e275730464a580dc9ff74b4822166b7906f905/output/res/anim/slide_left_in.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/anim/slide_left_out.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/77e275730464a580dc9ff74b4822166b7906f905/output/res/anim/slide_left_out.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/anim/fab_slide_in_from_right.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/8395049efc7a828d5e3f5cbb07ccab6adc0798da/output/res/anim/fab_slide_in_from_right.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/anim/fab_slide_out_to_right.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/8395049efc7a828d5e3f5cbb07ccab6adc0798da/output/res/anim/fab_slide_out_to_right.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/e01c1b9192f7ecf434e97635f60b7c9cdd3ce4e3/output/res/anim/design_fab_out.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/anim/fab_slide_out_to_left.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/8395049efc7a828d5e3f5cbb07ccab6adc0798da/output/res/anim/fab_slide_out_to_left.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/anim/fab_scale_down.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/8395049efc7a828d5e3f5cbb07ccab6adc0798da/output/res/anim/fab_scale_down.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/e01c1b9192f7ecf434e97635f60b7c9cdd3ce4e3/output/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/sandeeprana/Downloads/NIUTeachers/niuutility/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/sandeeprana/.android/build-cache/0851018408889e08c935d81da9bfb76c0f860698/output/res/anim/abc_slide_out_top.xml"
+    }
+]

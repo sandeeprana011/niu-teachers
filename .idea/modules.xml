@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/NIUTeachers.iml" filepath="$PROJECT_DIR$/NIUTeachers.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/niucommons/niucommons.iml" filepath="$PROJECT_DIR$/niucommons/niucommons.iml" />
     </modules>
   </component>
 </project>
