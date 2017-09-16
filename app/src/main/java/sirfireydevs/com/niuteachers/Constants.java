@@ -16,6 +16,7 @@ class Constants {
     public static final String TYPE_FILE = "file";
     public static final String TITLE = "title";
     public static final String RECORD = "record";
+    public static final String UNKNOWN = "unknown";
 
     public class FileType {
 
@@ -27,5 +28,18 @@ class Constants {
         public static final String DOCUMENT = "DOCUMENT";
         public static final String URL = "URL";
         public static final String AUDIO = "AUDIO";
+        public static final String PNG = "PNG";
+        public static final String JPEG = "JPEG";
+        public static final String MP3 = "MP3";
+        public static final String MP4 = "MP4";
+        public static final String JPG = "JPG";
+        public static final String DOC = "DOC";
+        public static final String DOCX = "DOCX";
+        public static final String XLS = "XLS";
+        public static final String XLSX = "XLSX";
+        public static final String PPTX = "PPTX";
+        public static final String PPT = "PPT";
+        public static final String AMR = "AMR";
+        public static final String WAV = "WAV";
     }
 }
